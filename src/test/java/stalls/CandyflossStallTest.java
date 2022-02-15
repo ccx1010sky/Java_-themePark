@@ -24,6 +24,10 @@ public class CandyflossStallTest {
     public void hasOwner() {
         assertEquals("Harry Belafonte", candyflossStall.getOwnerName());
     }
+    @Test
+    public void hasRating(){
+        assertEquals(5,candyflossStall.getRating());
+    }
 
     @Test
     public void hasParkingSpot(){

@@ -25,6 +25,11 @@ public class TobaccoStallTest {
     }
 
     @Test
+    public void hasRating(){
+        assertEquals(3,tobaccoStall.getRating());
+    }
+
+    @Test
     public void hasParkingSpot() {
         assertEquals(ParkingSpot.B1, tobaccoStall.getParkingSpot());
     }

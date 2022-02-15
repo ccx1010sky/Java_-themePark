@@ -8,6 +8,7 @@ public class CandyflossStall extends Stall implements IReviewed {
         super(name, ownerName, rating, parkingSpot);
     }
 
+
 }
 
 
