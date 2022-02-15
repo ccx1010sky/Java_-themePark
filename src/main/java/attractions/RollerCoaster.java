@@ -22,5 +22,12 @@ public class RollerCoaster  extends Attraction implements ISecurity, IReviewed, 
         return  8.40;
     }
 
+    @Override
+    public double priceFor(Visitor visitor) {
+        if ( visitor.getHeight() > 2.0){
+            return defaultPrice() * 2;
+        }
+    }
+
 
 }
